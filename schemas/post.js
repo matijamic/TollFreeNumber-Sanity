@@ -68,7 +68,7 @@ export default {
       title: "Leg Alpha Score",
       type: "string",
     },
-   
+
     {
       name: "leg_retail",
       title: "Leg Retail",
@@ -84,36 +84,27 @@ export default {
       title: "Note",
       type: "string",
     },
-    {
-      name: "twi",
-      title: "TWI",
-      type: "number",
-    },
-    {
-      name: "par",
-      title: "PAR",
-      type: "number",
-    },
-    {
-      name: "tms",
-      title: "TMS",
-      type: "number",
-    },
-    {
-      name: "com",
-      title: "COM",
-      type: "number",
-    },
-    {
-      name: "dom",
-      title: "DOM",
-      type: "number",
-    },
   ],
 
   preview: {
     select: {
       title: "title",
     },
+  },
+  initialValue: {
+    m_alt_categories: "",
+    phonenumber: "",
+    m_name: "",
+    m_alt_name: "",
+    m_score: 0,
+    m_adjustment: "",
+    m_retail: 0,
+    m_rank: 0,
+    leg_numeric_score: "",
+    leg_adj_frequency: "",
+    leg_alpha_score: "",
+    leg_retail: 0,
+    leg_rank: "",
+    m_note: "",
   },
 };
